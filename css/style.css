@@ -38,12 +38,28 @@
   
 }
 
-
 .bi-search{
   font-size: 25px;
   margin: 15px;
 }
 
+
+/* JUMBOTRON */
 .jumbotron{
   margin-top: 110px;
+  height:100vh;
+  background-image: url(../img/jumbo-bg.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.box-img-jumbo{
+width: 60%;
+}
+
+.cg-btn-jumbo{
+  border-radius: 20px !important;
+  background-color: red !important;
+  font-weight: bold;
 }

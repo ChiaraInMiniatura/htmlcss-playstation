@@ -160,6 +160,17 @@ width: 60%;
   margin-bottom: 15px;
 }
 
+/* esplora ps4 */
+
+.esp-ps4 h1{
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.esp-ps4 h5{
+  margin-bottom: 20px;
+  color: rgb(114, 114, 114);
+  font-weight: 600;
+}
 
 
 

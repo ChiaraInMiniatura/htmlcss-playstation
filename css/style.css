@@ -166,11 +166,36 @@ width: 60%;
   margin-bottom: 20px;
   font-weight: 600;
 }
+
 .esp-ps4 h5{
   margin-bottom: 20px;
   color: rgb(114, 114, 114);
   font-weight: 600;
 }
+
+/* playstation plus */
+
+.ps-plus{
+  background-color: rgb(190, 188, 187);
+}
+
+.box-logo-plus{
+  width: 70%;
+  margin-top: 30px;
+}
+
+.cg-btn-sec{
+  background-color: rgb(217, 218, 220) !important;
+  color:rgb(45, 100, 230) !important;
+  border: none !important;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+
+
+
+
 
 
 

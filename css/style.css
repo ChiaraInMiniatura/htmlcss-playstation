@@ -27,7 +27,6 @@
 .cg-btn{
   display: inline-block;
   background-color:rgb(54, 54, 54) ;
-  border-radius: 20px;
   width: 70px; 
   height: 45px; 
   text-align: center;
@@ -84,3 +83,58 @@ width: 60%;
 .box-card-ev.active{
   border: 2px solid rgb(0, 114, 206);
 }
+
+/* play5 */
+
+
+.title-play5 span{
+  color: rgb(0, 114, 206);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.title-play5 h1{
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.title-play5 h5{
+  color: rgb(115, 115, 115);
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.col-ps5.active{
+  border-bottom: 2px solid blue;
+  
+}
+
+.box-img-ps5{
+  text-align: center;
+  width: 70%;
+  margin: 0 auto 20px;
+  opacity: 0.6;
+}
+
+.box-img-ps5.active{
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+/* MEDIA */
+
+/* media mobile */
+@media screen and (max-width:768px){
+  .box-img-ps5 span{
+    display: none;
+  }
+}
+
+

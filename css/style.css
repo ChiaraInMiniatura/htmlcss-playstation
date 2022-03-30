@@ -63,3 +63,24 @@ width: 60%;
   background-color: red !important;
   font-weight: bold;
 }
+
+/* giochi in evidenza */
+
+
+.box-card-ev{
+  width: 95%;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 3px ;
+  margin: 0 auto;
+  border: 2px solid white;
+  
+}
+
+.box-card-ev img{
+  border-radius: 20px;
+}
+
+.box-card-ev.active{
+  border: 2px solid rgb(0, 114, 206);
+}

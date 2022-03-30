@@ -6,6 +6,7 @@
   position: fixed;
   top: 0;
   width: 100vw;
+  z-index: 999;
 }
 
 .sony{
@@ -120,9 +121,30 @@ width: 60%;
   opacity: 1;
 }
 
+/* takes two */
 
+.takes-two{
+  background-image:url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  
+}
+.takes-two .box-img-take{
+  width: 100%;
+}
 
+.takes-two h1{
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
 
+.takes-two p{
+  margin-bottom: 20px;
+}
+
+/* nuove usicte */
 
 
 

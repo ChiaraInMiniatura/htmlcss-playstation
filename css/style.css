@@ -94,17 +94,6 @@ width: 60%;
   font-weight: bold;
 }
 
-.title-play5 h1{
-  font-size: 40px;
-  margin-bottom: 30px;
-}
-
-.title-play5 h5{
-  color: rgb(115, 115, 115);
-  font-weight: 600;
-  margin-bottom: 40px;
-}
-
 .col-ps5.active{
   border-bottom: 2px solid blue;
   
@@ -144,7 +133,7 @@ width: 60%;
   margin-bottom: 20px;
 }
 
-/* nuove usicte */
+/* nuove uscite */
 .nuove-uscite{
   background-color:rgb(31, 31, 31);
   color: white;
@@ -161,17 +150,6 @@ width: 60%;
 }
 
 /* esplora ps4 */
-
-.esp-ps4 h1{
-  margin-bottom: 20px;
-  font-weight: 600;
-}
-
-.esp-ps4 h5{
-  margin-bottom: 20px;
-  color: rgb(114, 114, 114);
-  font-weight: 600;
-}
 
 /* playstation plus */
 
@@ -191,6 +169,8 @@ width: 60%;
   margin-bottom: 30px;
   margin-top: 20px;
 }
+
+/* sconti playstore */
 
 
 

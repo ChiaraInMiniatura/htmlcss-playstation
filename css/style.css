@@ -21,6 +21,10 @@
   margin-right: 20px;
 }
 
+#navbarDropdown:hover{
+  color: rgb(0, 114, 206) !important;
+}
+
 .cg-navbar ul li a{
   color: black !important;
 }

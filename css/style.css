@@ -27,7 +27,9 @@
 
 .cg-btn{
   display: inline-block;
-  background-color:rgb(54, 54, 54) ;
+  background-color:rgb(54, 54, 54);
+  border: 2px solid rgb(54, 54, 54);
+  outline: 2px solid rgb(54, 54, 54);
   width: 70px; 
   height: 45px; 
   text-align: center;
@@ -35,7 +37,12 @@
   line-height: 40px;
   color: white !important;
   cursor: pointer;
-  
+}
+
+.cg-btn:hover{
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(91, 99, 106);
+  outline: 2px solid rgb(91, 99, 106);
 }
 
 .bi-search{
@@ -58,14 +65,7 @@
 width: 60%;
 }
 
-.cg-btn-jumbo{
-  border-radius: 20px !important;
-  background-color: red !important;
-  font-weight: bold;
-}
-
 /* giochi in evidenza */
-
 
 .box-card-ev{
   width: 95%;
@@ -74,7 +74,12 @@ width: 60%;
   padding: 3px ;
   margin: 0 auto;
   border: 2px solid white;
-  
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.box-card-ev:hover{
+  transform: translateY(-10px);
 }
 
 .box-card-ev img{
@@ -95,8 +100,7 @@ width: 60%;
 }
 
 .col-ps5.active{
-  border-bottom: 2px solid blue;
-  
+  border-bottom: 2px solid blue;  
 }
 
 .box-img-ps5{
@@ -104,6 +108,10 @@ width: 60%;
   width: 70%;
   margin: 0 auto 20px;
   opacity: 0.6;
+}
+
+.box-img-ps5:hover{
+  opacity: 1;
 }
 
 .box-img-ps5.active{
@@ -165,29 +173,41 @@ width: 60%;
 .cg-btn-sec{
   background-color: rgb(217, 218, 220) !important;
   color:rgb(45, 100, 230) !important;
-  border: none !important;
+  border: 2px solid  rgb(217, 218, 220) !important;
+  outline: 2px solid rgb(217, 218, 220);
   margin-top: 10px;
   margin-bottom: 20px;
 }
 
+.cg-btn-sec:hover{
+  border: 2px solid rgb(190, 188, 187) !important;
+}
+
 /* sconti playstore */
+
+/* playstation now */
 
 .ps-now{
   background-color: rgb(22, 28, 59);
   color: white;
 }
 
-/* playstation now */
-
 .box-logo-now{  
   width: 70%;
   margin-bottom: 20px;
 }
+
 .cg-btn-sec-now{
   background-color: rgb(245, 245, 245) !important;
   color:black !important;
+  border: 2px solid rgb(245, 245, 245)!important;
+  outline: 2px solid rgb(245, 245, 245);
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.cg-btn-sec-now:hover{
+  border: 2px solid rgb(22, 28, 59) !important;
 }
 
 /* social */

@@ -1,6 +1,32 @@
+
+/* bottoni */
+
 .cg-btn-br{
   border-radius: 50px !important;
 }
+
+.cg-btn-play5{
+  border: 2px solid rgb(11, 94, 215)!important;
+  outline: 2px solid rgb(11, 94, 215);
+}
+
+.cg-btn-play5:hover{
+  border: 2px solid rgb(255, 255, 255) !important;
+}
+
+.cg-btn-jumbo{
+  border-radius: 20px !important;
+  background-color: red !important;
+  border: 2px solid red !important;
+  outline: 2px solid red;
+  font-weight: bold;
+}
+
+.cg-btn-jumbo:hover{
+  border: 2px solid rgb(0, 0, 0) !important;
+}
+
+/* titoli */
 
 .title-play5 h1{
   font-size: 40px;

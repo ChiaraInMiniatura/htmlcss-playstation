@@ -196,6 +196,45 @@ width: 60%;
   margin: 0 auto;
 }
 
+/* FOOTER */
+
+footer{
+  background-color: rgb(0, 67, 156);
+  color: white;
+}
+
+.box-ps-logo-foot{
+  width: 120px;
+}
+
+.box-ps-logo-foot img{
+  filter: grayscale(1) invert(1) brightness(3); 
+}
+
+.fa-globe{
+  margin-right: 10px;
+}
+
+footer ul{
+  padding-left: 0;
+}
+
+footer ul li{
+  list-style: none;
+  margin-bottom: 10px;
+  margin-right: 30px;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.box-img-sony-foot{
+  width: 120px;
+}
+
+
 
 /* MEDIA */
 

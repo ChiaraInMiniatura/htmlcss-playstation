@@ -166,17 +166,35 @@ width: 60%;
   background-color: rgb(217, 218, 220) !important;
   color:rgb(45, 100, 230) !important;
   border: none !important;
-  margin-bottom: 30px;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 /* sconti playstore */
 
+.ps-now{
+  background-color: rgb(22, 28, 59);
+  color: white;
+}
 
+/* playstation now */
 
+.box-logo-now{  
+  width: 70%;
+  margin-bottom: 20px;
+}
+.cg-btn-sec-now{
+  background-color: rgb(245, 245, 245) !important;
+  color:black !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+/* social */
 
-
+.box-img-social{
+  margin: 0 auto;
+}
 
 
 /* MEDIA */
@@ -188,4 +206,12 @@ width: 60%;
   }
 }
 
+/* media desktop */
 
+@media screen and (min-width:992px){
+
+  .box-img-social{
+    max-width: 125px;
+  }
+
+}
